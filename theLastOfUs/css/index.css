@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Monts;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+body{
+    margin: 0 auto;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background: #322F2F;
+    font-family: Monts;
+}
+
+.firstText{
+    color: white;
+    font-size: 12px;
+    width: 25%;
+    margin-left: 172px;
+    height: 100%;
+}
+
+nav img{
+    margin-top: 50px;
+    margin-left: 200px;
+    -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.secondText{
+    color: white;
+    font-size: 12px;
+    width: 25%;
+    height: 100%;
+    margin-left: 215px;
+}
+
+.btn-lang{
+    background: none !important;
+    border: none !important;
+}
+
+.dropdown-menu.show{
+    min-width: 70px;
+}
+
+nav p{
+    transition: color 0.2s;
+}
+
+nav p:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+@-webkit-keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-38px);
+              transform: translateY(-38px);
+    }
+  }
+  @keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-38px);
+              transform: translateY(-38px);
+    }
+  }
+
+.smth{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: 99;
+}
+  

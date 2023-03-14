@@ -8,6 +8,15 @@
     src: url(../fonts/Montserrat-Regular.ttf);
 }
 
+.toTop{
+    background: none;
+    border: none;
+    position: fixed;
+    z-index: 99;
+    left: 1750px;
+    bottom: 20px;
+}
+
 body{
     margin: 0 auto;
 }
@@ -19,6 +28,7 @@ nav{
     font-family: Monts;
 }
 
+
 .firstText{
     color: white;
     font-size: 12px;
@@ -29,7 +39,7 @@ nav{
 
 nav img{
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 250px;
     -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -45,7 +55,10 @@ nav img{
 .btn-lang{
     background: none !important;
     border: none !important;
+    font-size: 12px !important;
 }
+
+
 
 .dropdown-menu.show{
     min-width: 70px;
@@ -53,6 +66,7 @@ nav img{
 
 nav p{
     transition: color 0.2s;
+    color: white;
 }
 
 nav p:hover{
@@ -81,10 +95,165 @@ nav p:hover{
     }
   }
 
-.smth{
+.dropdown-lang{
+    font-size: 12px !important;
+}
+
+.trailer-div{
     width: 100%;
-    height: 500px;
-    position: absolute;
-    z-index: 99;
+    background: #575757;
+    height: 550px;
+    margin-top: 200px;
+}
+
+.trailer-div h1{
+    color: white;
+    text-align: center;
+}
+
+body h1{
+    font-family: Roboto;
+}
+
+body p{
+    font-family: Monts;
+}
+
+.gameplay-div{
+    width: 100%;
+    height: 625px;
+    margin-top: 200px;
+}
+
+.gameplay-div h1{
+    font-size: 64px;
+    text-align: center;
+}
+
+.gameplay-info{
+    margin-top: 60px;
+}
+
+
+.gameplay-text{
+    margin-left: 60px;
+}
+
+.gameplay-video{
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.plot-div{
+    width: 100%;
+    background: #575757;
+    height: 625px;
+    margin-top: 200px;
+}
+
+.plot-div h1{
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.plot-div p{
+    color: white;
+}
+
+.plot-info{
+    margin-top: 60px;
+}
+
+.history-div{
+    width: 100%;
+    height: 625px;
+    margin-top: 200px;
+}
+
+.history-div h1{
+    font-size: 64px;
+    text-align: center;
+}
+
+.history-info{
+    margin-top: 60px;
+}
+
+.music-div{
+    width: 100%;
+    background: #575757;
+    height: 625px;
+    margin-top: 200px;
+}
+
+.music-div h1{
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+.music-div p{
+    color: white;
+}
+
+.music-div h2{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.track3{
+    margin-left: 20px;
+}
+
+.feedbacks-div{
+    width: 100%;
+    height: 625px;
+    margin-top: 200px;
+}
+
+.feedbacks-div h1{
+    font-size: 64px;
+    text-align: center;
+}
+
+.feedbacks-div li{
+    font-family: Monts;
+}
+
+.feedbacks-info{
+    margin-top: 60px;
+}
+
+footer{
+    width: 100%;
+    height: 161px;
+    background: #322F2F;
+}
+
+footer p{
+    color: white;
+    font-size: 12px;
+    margin-top: 30px;
+    transition: color 0.2s;
+}
+
+footer p:hover{
+    color: grey;
+}
+
+footer img{
+    margin-top: 11px;
+}
+
+.team{
+    margin-top: 55px;
+    text-align: center;
+    color: #ABABAB !important;
 }
   

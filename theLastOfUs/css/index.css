@@ -8,6 +8,18 @@
     src: url(../fonts/Montserrat-Regular.ttf);
 }
 
+body{
+    margin: 0 auto;
+}
+
+body h1{
+    font-family: Roboto;
+}
+
+body p{
+    font-family: Monts;
+}
+
 .toTop{
     background: none;
     border: none;
@@ -17,9 +29,6 @@
     bottom: 20px;
 }
 
-body{
-    margin: 0 auto;
-}
 
 nav{
     width: 100%;
@@ -66,7 +75,11 @@ nav img{
 
 nav p{
     transition: color 0.2s;
-    color: white;
+    color: white !important;
+}
+
+.firstText a{
+    color: white !important;
 }
 
 nav p:hover{
@@ -111,13 +124,6 @@ nav p:hover{
     text-align: center;
 }
 
-body h1{
-    font-family: Roboto;
-}
-
-body p{
-    font-family: Monts;
-}
 
 .gameplay-div{
     width: 100%;
@@ -205,6 +211,10 @@ a{
     font-size: 24px;
     color: white;
     text-align: center;
+}
+
+.music-info{
+    margin-top: 60px;
 }
 
 .track3{
